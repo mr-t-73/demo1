@@ -19,7 +19,7 @@ public class Main {
         Wrapper wrapper = tomcat.addServlet(context,"reply", "org.glassfish.jersey.servlet.ServletContainer");
         // This wrapper will work too
         //  Wrapper wrapper = tomcat.addServlet(context,"reply", new ServletContainer(new ResourceConfig(new JerseyApplication().getClasses())));
-        wrapper.addInitParameter("jersey.config.server.provider.packages", "org.webservice.demo");
+        wrapper.addInitParameter("jersey.config.server.provider.packages", "org.webservice.demo.resource");
         context.addServletMapping("/json/*", "reply");
         tomcat.start();
         tomcat.getServer().await();
