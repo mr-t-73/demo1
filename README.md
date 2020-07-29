@@ -1,6 +1,6 @@
 ## Introduction
 
-This is a simple example to show how to use the JAX-RS webservice within a Jersey implementation framework and run that within an Embedded Tomcat Webservice.
+This is a simple example to show how to construct Embedded Tomcat containerizing a Jersey framework and in turn the JAX-RS webservice:
 
 
 
