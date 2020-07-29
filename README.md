@@ -19,7 +19,7 @@ $ gradle shadowJar
 ## Run the Embedded Tomcat fat jar:
 
 ```
-java -jar build/libs/webservice-1.0-SNAPSHOT-all.jar
+$ java -jar build/libs/webservice-1.0-SNAPSHOT-all.jar
 May 13, 2020 4:41:55 PM org.apache.catalina.core.StandardContext setPath<br/>
 WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
 May 13, 2020 4:41:56 PM org.apache.coyote.AbstractProtocol init
